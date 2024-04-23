@@ -115,40 +115,39 @@ class ProfileForm(UserChangeForm):
     username = forms.CharField()
     email = forms.EmailField()
 
-
-        # image = forms.ImageField(
-        #     widget=forms.FileInput(attrs={"class": "form-control mt-3"}), required=False
-        # )
-        # first_name = forms.CharField(
-        #     widget=forms.TextInput(
-        #         attrs={
-        #             "class": "form-control",
-        #             "placeholder": "Введите ваше имя",
-        #         }
-        #     )
-        # )
-        # last_name = forms.CharField(
-        #     widget=forms.TextInput(
-        #         attrs={
-        #             "class": "form-control",
-        #             "placeholder": "Введите вашу фамилию",
-        #         }
-        #     )
-        # )
-        # username = forms.CharField(
-        #     widget=forms.TextInput(
-        #         attrs={
-        #             "class": "form-control",
-        #             "placeholder": "Введите ваше имя пользователя",
-        #         }
-        #     )
-        # )
-        # email = forms.EmailField(
-        #     widget=forms.EmailInput(
-        #         attrs={
-        #             "class": "form-control",
-        #             "placeholder": "Введите ваш email *youramail@example.com",
-        #             # "readonly": True,
-        #         }
-        #     )
-        # )
+    # image = forms.ImageField(
+    #     widget=forms.FileInput(attrs={"class": "form-control mt-3"}), required=False
+    # )
+    # first_name = forms.CharField(
+    #     widget=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите ваше имя",
+    #         }
+    #     )
+    # )
+    # last_name = forms.CharField(
+    #     widget=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите вашу фамилию",
+    #         }
+    #     )
+    # )
+    # username = forms.CharField(
+    #     widget=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите ваше имя пользователя",
+    #         }
+    #     )
+    # )
+    # email = forms.EmailField(
+    #     widget=forms.EmailInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите ваш email *youramail@example.com",
+    #             # "readonly": True,
+    #         }
+    #     )
+    # )
