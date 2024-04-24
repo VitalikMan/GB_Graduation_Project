@@ -23,6 +23,7 @@ class ProductsAdmin(admin.ModelAdmin):
         "discount",
     ]
     list_editable = [
+        "price",
         "discount",
     ]
     search_fields = [

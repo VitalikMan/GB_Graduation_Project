@@ -41,14 +41,6 @@
   },
   {
     "model": "goods.categories",
-    "pk": 6,
-    "fields": {
-      "name": "Фурнитура",
-      "slug": "furnitura"
-    }
-  },
-  {
-    "model": "goods.categories",
     "pk": 7,
     "fields": {
       "name": "Декор",
